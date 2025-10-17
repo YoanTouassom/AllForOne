@@ -3,19 +3,19 @@ Rapport Technique – Projet AllForOne
 Dans un monde de plus en plus interconnecté, la technologie joue un rôle central dans la manière dont les individus communiquent, partagent et collaborent. Pourtant, malgré la multitude d’outils numériques disponibles, de nombreuses communautés — associations, écoles, groupes citoyens, entreprises locales — peinent encore à trouver un espace numérique véritablement adapté à leurs besoins.
 C’est de ce constat qu’est né AllForOne, un projet visant à concevoir une plateforme web collaborative, simple, inclusive et résiliente, permettant aux communautés de s’organiser et d’interagir efficacement.
 L’objectif principal d’AllForOne est de fournir un espace centralisé où les membres d’une communauté peuvent :
-•	Communiquer de manière fluide,
-•	Partager des documents et des ressources,
-•	Organiser des événements,
-•	Collaborer sur des projets communs.
+Communiquer de manière fluide,
+Partager des documents et des ressources,
+	Organiser des événements,
+	Collaborer sur des projets communs.
 Le tout dans un environnement sécurisé, évolutif et tolérant aux pannes, conçu avec les technologies modernes du web distribué.
 
 2. Problématique
 Les outils actuels tels que Facebook Groups, Slack ou Google Workspace permettent une certaine forme de communication, mais ils présentent des limitations importantes pour les communautés locales ou associatives.
 Ces plateformes sont souvent :
-•	Trop complexes ou coûteuses,
-•	Centralisées (dépendantes d’une seule entreprise),
-•	Mal adaptées aux besoins de participation collective,
-•	Peu accessibles pour les utilisateurs non technophiles.
+	Trop complexes ou coûteuses,
+	Centralisées (dépendantes d’une seule entreprise),
+	Mal adaptées aux besoins de participation collective,
+	Peu accessibles pour les utilisateurs non technophiles.
 Ainsi, de nombreuses communautés se retrouvent avec des échanges dispersés entre plusieurs applications (WhatsApp, Drive, Trello…), ce qui complique la coordination, la diffusion d’informations et la gestion des activités.
 De plus, la question de la sécurité et de la souveraineté des données devient de plus en plus cruciale : les utilisateurs souhaitent aujourd’hui des espaces où leurs informations sont protégées et leurs interactions respectées.
 La problématique à laquelle AllForOne répond peut donc être formulée ainsi :
@@ -24,23 +24,23 @@ Comment concevoir une plateforme numérique collaborative, accessible et scalabl
 3. Portée du projet
 3.1. Objectifs fonctionnels
 AllForOne proposera plusieurs fonctionnalités clés :
-•	Communication centralisée : messagerie intégrée, annonces, fil d’actualité.
-•	Organisation d’événements : création, inscription et gestion de calendriers communautaires.
-•	Partage de ressources : documents, images, liens, accessibles selon les droits des membres.
-•	Collaboration en temps réel : co-édition de contenus et commentaires partagés.
-•	Notifications personnalisées : pour rester informé des activités et publications.
+	Communication centralisée : messagerie intégrée, annonces, fil d’actualité.
+	Organisation d’événements : création, inscription et gestion de calendriers communautaires.
+	Partage de ressources : documents, images, liens, accessibles selon les droits des membres.
+	Collaboration en temps réel : co-édition de contenus et commentaires partagés.
+	Notifications personnalisées : pour rester informé des activités et publications.
 3.2. Objectifs non fonctionnels
 Le système devra être :
-•	Scalable, capable de s’adapter à la croissance du nombre d’utilisateurs ;
-•	Tolérant aux pannes, grâce à une architecture distribuée ;
-•	Sécurisé, avec une authentification robuste et une gestion fine des permissions ;
-•	Accessible, grâce à une interface intuitive utilisable sur ordinateur et mobile.
+	Scalable, capable de s’adapter à la croissance du nombre d’utilisateurs ;
+	Tolérant aux pannes, grâce à une architecture distribuée ;
+	Sécurisé, avec une authentification robuste et une gestion fine des permissions ;
+	Accessible, grâce à une interface intuitive utilisable sur ordinateur et mobile.
 3.3. Public cible
 AllForOne s’adresse à un large public :
-•	Associations et ONG,
-•	Écoles et universités,
-•	Groupes citoyens ou collectifs locaux,
-•	Petites entreprises cherchant un outil collaboratif interne.
+	Associations et ONG,
+	Écoles et universités,
+	Groupes citoyens ou collectifs locaux,
+	Petites entreprises cherchant un outil collaboratif interne.
 
 4. Proposition de solution
 AllForOne se positionne comme une plateforme web communautaire permettant de regrouper communication, organisation et collaboration dans un environnement unique.
@@ -53,9 +53,9 @@ Ainsi, AllForOne se distingue par sa philosophie communautaire : il ne s’agit 
 5. Conception technique
 5.1. Architecture générale
 AllForOne adopte une architecture distribuée et modulaire, reposant sur trois couches principales :
-•	Frontend (React) : interface utilisateur dynamique et responsive, développée avec React.js et Tailwind CSS pour garantir fluidité et accessibilité.
-•	Backend (Node.js / Express) : serveur applicatif gérant les requêtes, la logique métier, et la communication avec la base de données.
-•	Base de données (MongoDB) : stockage NoSQL permettant la flexibilité des données et la scalabilité horizontale.
+	Frontend (React) : interface utilisateur dynamique et responsive, développée avec React.js et Tailwind CSS pour garantir fluidité et accessibilité.
+	Backend (Node.js / Express) : serveur applicatif gérant les requêtes, la logique métier, et la communication avec la base de données.
+	Base de données (MongoDB) : stockage NoSQL permettant la flexibilité des données et la scalabilité horizontale.
 Les services sont déployés dans le cloud (par exemple via AWS ou Render) afin d’assurer une haute disponibilité et la tolérance aux pannes. L’API REST permet la communication fluide entre les modules et favorise l’extensibilité future.
 5.2. Sécurité et fiabilité
 AllForOne intègre :
