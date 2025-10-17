@@ -8,7 +8,7 @@ L’objectif principal d’AllForOne est de fournir un espace centralisé où le
 •	Organiser des événements,
 •	Collaborer sur des projets communs.
 Le tout dans un environnement sécurisé, évolutif et tolérant aux pannes, conçu avec les technologies modernes du web distribué.
-________________________________________
+
 2. Problématique
 Les outils actuels tels que Facebook Groups, Slack ou Google Workspace permettent une certaine forme de communication, mais ils présentent des limitations importantes pour les communautés locales ou associatives.
 Ces plateformes sont souvent :
@@ -20,7 +20,7 @@ Ainsi, de nombreuses communautés se retrouvent avec des échanges dispersés en
 De plus, la question de la sécurité et de la souveraineté des données devient de plus en plus cruciale : les utilisateurs souhaitent aujourd’hui des espaces où leurs informations sont protégées et leurs interactions respectées.
 La problématique à laquelle AllForOne répond peut donc être formulée ainsi :
 Comment concevoir une plateforme numérique collaborative, accessible et scalable, permettant aux communautés de s’organiser efficacement, tout en assurant la sécurité, la tolérance aux pannes et la participation active de leurs membres ?
-________________________________________
+
 3. Portée du projet
 3.1. Objectifs fonctionnels
 AllForOne proposera plusieurs fonctionnalités clés :
@@ -41,7 +41,7 @@ AllForOne s’adresse à un large public :
 •	Écoles et universités,
 •	Groupes citoyens ou collectifs locaux,
 •	Petites entreprises cherchant un outil collaboratif interne.
-________________________________________
+
 4. Proposition de solution
 AllForOne se positionne comme une plateforme web communautaire permettant de regrouper communication, organisation et collaboration dans un environnement unique.
 Elle repose sur trois piliers essentiels :
@@ -49,7 +49,7 @@ Elle repose sur trois piliers essentiels :
 2.	Transparence – Les informations circulent librement et clairement, renforçant la confiance entre les membres.
 3.	Résilience – Grâce à une architecture moderne et distribuée, la plateforme reste fonctionnelle même en cas de défaillance partielle du système.
 Ainsi, AllForOne se distingue par sa philosophie communautaire : il ne s’agit pas seulement d’un outil de communication, mais d’un véritable espace de co-création numérique.
-________________________________________
+
 5. Conception technique
 5.1. Architecture générale
 AllForOne adopte une architecture distribuée et modulaire, reposant sur trois couches principales :
@@ -65,7 +65,7 @@ AllForOne intègre :
 •	Des sauvegardes automatiques pour éviter toute perte de données.
 5.3. Collaboration en temps réel
 Grâce à l’utilisation de WebSockets, la plateforme permet des interactions instantanées (chat en direct, notifications, co-édition de documents). Cette approche favorise la collaboration et renforce la réactivité du système.
-________________________________________
+
 6. Technologies utilisées
 Composant	Technologie choisie	Justification
 Frontend	React.js, Tailwind CSS	Interface moderne, réactive et responsive
@@ -75,7 +75,7 @@ Communication temps réel	Socket.io	Gestion efficace des interactions en direct
 Authentification	JWT + Bcrypt	Sécurité et gestion simplifiée des sessions
 Déploiement	Docker + Render / AWS	Portabilité, tolérance aux pannes
 Contrôle de version	Git + GitHub	Collaboration et traçabilité du développement
-________________________________________
+
 7. Plan de mise en œuvre
 Le développement d’AllForOne se déroule en plusieurs phases logiques :
 1.	Analyse et planification (Semaine 1-2)
@@ -91,7 +91,7 @@ o	Tests unitaires, fonctionnels et de charge. Correction des anomalies.
 6.	Déploiement et maintenance (Semaine 13-14)
 o	Mise en ligne, surveillance du système, documentation et formation des utilisateurs.
 Cette planification est flexible et peut être ajustée selon la taille de l’équipe et la complexité du projet.
-________________________________________
+
 8. Avantages et impact communautaire
 AllForOne apporte une valeur ajoutée significative :
 •	Simplification de la communication et du travail d’équipe.
@@ -99,7 +99,7 @@ AllForOne apporte une valeur ajoutée significative :
 •	Réduction de la dépendance à des outils tiers.
 •	Contribution à l’inclusion numérique, notamment pour les associations et les écoles.
 Sur le plan social, AllForOne favorise la cohésion, la participation citoyenne et le développement du lien communautaire, tout en exploitant les bénéfices des technologies distribuées modernes.
-________________________________________
+
 9. Conclusion et perspectives
 AllForOne incarne une vision : celle d’un numérique au service de la communauté, où la technologie devient un levier de collaboration, d’inclusion et d’autonomie.
 Grâce à une conception basée sur les principes de scalabilité, de sécurité et de tolérance aux pannes, la plateforme offre une base solide pour le développement durable de communautés connectées et dynamiques.
