@@ -68,13 +68,13 @@ Grâce à l’utilisation de WebSockets, la plateforme permet des interactions i
 
 6. Technologies utilisées
 Composant	Technologie choisie	Justification
-Frontend	React.js, Tailwind CSS	Interface moderne, réactive et responsive
-Backend	Node.js, Express.js	Rapidité, modularité, compatibilité avec JSON
-Base de données	MongoDB (NoSQL)	Structure flexible, scalabilité horizontale
-Communication temps réel	Socket.io	Gestion efficace des interactions en direct
-Authentification	JWT + Bcrypt	Sécurité et gestion simplifiée des sessions
-Déploiement	Docker + Render / AWS	Portabilité, tolérance aux pannes
-Contrôle de version	Git + GitHub	Collaboration et traçabilité du développement
+Frontend:	React.js, Tailwind CSS	Interface moderne, réactive et responsive
+Backend:	Node.js, Express.js	Rapidité, modularité, compatibilité avec JSON
+Base de données	MongoDB: (NoSQL)	Structure flexible, scalabilité horizontale
+Communication temps réel:	Socket.io	Gestion efficace des interactions en direct
+Authentification:	JWT + Bcrypt	Sécurité et gestion simplifiée des sessions
+Déploiement:	Docker + Render / AWS	Portabilité, tolérance aux pannes
+Contrôle de version:	Git + GitHub	Collaboration et traçabilité du développement
 
 7. Plan de mise en œuvre
 Le développement d’AllForOne se déroule en plusieurs phases logiques :
@@ -108,4 +108,3 @@ Grâce à une conception basée sur les principes de scalabilité, de sécurité
 •	L’intégration de modules d’intelligence artificielle (suggestions automatiques, modération intelligente),
 •	Un modèle open source permettant à d’autres communautés de l’adapter librement à leurs besoins.
 En somme, AllForOne ne se limite pas à une application : c’est un projet de société numérique, construit autour d’une idée simple mais puissante — tous pour un, et un pour tous.
-
