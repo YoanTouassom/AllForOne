@@ -68,15 +68,21 @@ Grâce à l’utilisation de WebSockets, la plateforme permet des interactions i
 
 6. Technologies utilisées
 Composant	Technologie choisie	Justification
-Frontend:	React.js, Tailwind CSS	Interface moderne, réactive et responsive
-Backend:	Node.js, Express.js	Rapidité, modularité, compatibilité avec JSON
-Base de données	MongoDB: (NoSQL)	Structure flexible, scalabilité horizontale
-Communication temps réel:	Socket.io	Gestion efficace des interactions en direct
-Authentification:	JWT + Bcrypt	Sécurité et gestion simplifiée des sessions
-Déploiement:	Docker + Render / AWS	Portabilité, tolérance aux pannes
-Contrôle de version:	Git + GitHub	Collaboration et traçabilité du développement
+Frontend:
+React.js, Tailwind CSS	Interface moderne, réactive et responsive
+Backend:
+Node.js, Express.js	Rapidité, modularité, compatibilité avec JSON
+Base de données	MongoDB:
+(NoSQL)	Structure flexible, scalabilité horizontale
+Communication temps réel:
+Socket.io	Gestion efficace des interactions en direct
+Authentification:
+JWT + Bcrypt	Sécurité et gestion simplifiée des sessions
+Déploiement:
+Docker + Render / AWS	Portabilité, tolérance aux pannes
+Contrôle de version: Git + GitHub	Collaboration et traçabilité du développement
 
-7. Plan de mise en œuvre
+8. Plan de mise en œuvre
 Le développement d’AllForOne se déroule en plusieurs phases logiques :
 1.	Analyse et planification (Semaine 1-2)
 o	Étude des besoins, rédaction du cahier des charges, définition des fonctionnalités clés.
